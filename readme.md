@@ -1,6 +1,6 @@
 # React interactable
 
-This is a port of [react-native-interactable](https://github.com/wix/react-native-interactable) to JS. It allows your UI to react in a physically natural way to user's drag interactions. See it working in the [react-interactable playground](https://react-interactable.netlify.com/) and start playing with it using this [code sandbox](https://codesandbox.io/s/n4kq4ylk6l).
+A fork of [react-interactable](https://github.com/arqex/react-interactable) by Javier Marquez. It allows your UI to react in a physically natural way to user's drag interactions. See it working in the [react-interactable playground](https://react-interactable.netlify.com/) and start playing with it using this [code sandbox](https://codesandbox.io/s/n4kq4ylk6l).
 
 This library is for you if you want to have nice interaction animations in your:
 * Multiplatform app using [react-native-web](https://github.com/necolas/react-native-web).
@@ -26,16 +26,17 @@ npm install --save react-interactable animated react-panresponder-web
 With an interactable view you can make any component react to dragging events. 
 
 **Using it with react-native-web**
+
 ```js
 // Import the libraries
 import React from 'react'
-import Interactable from 'react-interactable'
+import Interactable from 'index'
 
 // ... later, in your render code
 return (
-	<Interactable.View>
-		<Text>I am draggable!</Text>
-	</Interactable.View>
+    <Interactable.View>
+        <Text>I am draggable!</Text>
+    </Interactable.View>
 )
 ```
 
