@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arqex/react-interactable"
+    "url": "https://github.com/artiry/interreact"
   },
   "devDependencies": {
     "animated": "^0.2.2",

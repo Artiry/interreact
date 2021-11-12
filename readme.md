@@ -1,4 +1,4 @@
-# React interactable
+# Interreact
 
 A fork of [react-interactable](https://github.com/arqex/react-interactable) by Javier Marquez. It allows your UI to react in a physically natural way to user's drag interactions. See it working in the [react-interactable playground](https://react-interactable.netlify.com/) and start playing with it using this [code sandbox](https://codesandbox.io/s/n4kq4ylk6l).
 
